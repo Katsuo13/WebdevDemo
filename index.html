@@ -8,12 +8,15 @@
         <style> </style>
     </head>
     <body>
-        <h1 class="text-center m-5">Welcome to My Interactive Web Page</h1> 
+        <h1 class="text-center m-5">Welcome!</h1> 
         <p class="text-center"><button id="changeTextButton" type="button" class="btn btn-outline-success">Click me to change text</button></p>
-        <h2 id="text" class="text-center mt-5">This is the original text.</h2>
+        <h2 id="text" class="text-center m-5">This is the original text.</h2>
+        <img id="myImage" src="https://i.ibb.co.com/nf1njqZ/Click-Pika.jpg" class="rounded mx-auto d-block" alt="">
         <script>
             document.getElementById('changeTextButton').addEventListener('click', function() 
-            { document.getElementById('text').innerText = 'The text has been changed!';})
+            { document.getElementById('text').innerText = 'The text has been changed! 🫨🫨🫨';})
+            document.getElementById('changeTextButton').addEventListener('click', function()
+            { document.getElementById('myImage').src = "https://i.ibb.co.com/2qkyBkM/pika.jpg";})
         </script>
         
     </body>
